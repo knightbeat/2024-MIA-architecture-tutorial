@@ -1,1 +1,12 @@
-
+schemaVersion: "1.1"
+endpoints:
+    - name: reservation-core-services-java-spring-boot-implementation--7fc
+      displayName: Reservation Core Services (Java/Spring Boot Implementation)
+      service:
+        basePath: /reservations
+        port: 8080
+      type: REST
+      networkVisibilities:
+        - Project
+        - Public
+      schemaFilePath: src/main/resources/openapi.yaml
